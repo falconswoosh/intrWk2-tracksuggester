@@ -15,11 +15,11 @@ $(document).ready(function() {
   var notSureInput4 = document.getElementById("gridRadios12");
   event.preventDefault();
   if ((frontEndInput1).checked && (frontEndInput2).checked && (frontEndInput3).checked && (frontEndInput4).checked) {
-    alert("You choose to be a frontend programmer");
+    alert("You choose to be a frontend programmer. We recommend either our CSS/Design track or Java/Android.");
   } else if ((backEndInput1).checked && (backEndInput2).checked && (backEndInput3).checked && (backEndInput4).checked) {
-    alert("You choose to be a backend programmer");
+    alert("You choose to be a backend programmer. We recommend either ");
   } else {
-    alert("You choose to be a full-stack programmer that involves more than one track")
+    alert("We recommend you start with any one of the tracks since they all begin with Intro to Programming and Javascript. Prior to completing these two requirements, you may decide which track offered is more your passion.")
   }
   alert("end");
     });
