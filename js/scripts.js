@@ -15,7 +15,7 @@ $(document).ready(function() {
   } else if ((backEndInput1).checked && (backEndInput2).checked && (backEndInput3).checked && (backEndInput4).checked) {
     alert("You choose to be a backend programmer");
   } else {
-    alert("You choose to be a full-stack programmer")
+    alert("You choose to be a full-stack programmer that involves more than one track")
   }
   alert("end");
     });
