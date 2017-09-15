@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Get an idea of which programming track you may be interested in or very passionate about">
+    <meta name="keywords" content="FrontEnd programmer, BackEnd programmer">
+    <meta name="author" content="Alan Falcon">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-3.2.1.js"></script>
@@ -66,7 +69,7 @@
           </fieldset>
           <fieldset id="form-group3">
             <div class="form-check">
-              <h3>Choose one...</h3>
+              <h3>Which of these interests you the most?</h3>
               <label class="form-check-label">
                 <input class="form-check-input" type="radio" name="gridRadios3" id="gridRadios7" value="option7">
                 I prefer to learn Microsoft solutions (e.g., C#, .NET, etc.)
@@ -87,7 +90,7 @@
           </fieldset>
           <fieldset id="form-group4">
             <div class="form-check">
-              <h3>Which of these interests you the most?</h3>
+              <h3>Choose one...</h3>
               <label class="form-check-label">
                 <input class="form-check-input" type="radio" name="gridRadios4" id="gridRadios10" value="option10">
                 Drupal/PHP, Ruby/Rails, etc
@@ -112,6 +115,11 @@
             </div>
           </div>
         </form>
+      </div>
+      <div id="results">
+        <p id="frontEndResult">You seem inclined to be a frontend programmer. We recommend either our CSS/Design or Java/Android track.</p>
+        <p id="backEndResult">You seem inclined to be a backend programmer. We recommend either Ruby/Rails, PHP/Drupal, or C$/.NET tracks</p>
+        <p id="noClearChoiceResult">It seems you may not be confident as to which track to choose. We recommend either Ruby/Rails, PHP/Drupal, or C$/.NET tracks</p>
       </div>
     </div>
   </body>
