@@ -4,8 +4,13 @@ $(document).ready(function() {
   var frontEndInput = document.getElementById("gridRadios1");
   var backEndInput = document.getElementById("gridRadios2");
   event.preventDefault();
+  if frontEndInput.checked {
+    alert("You choose to be a frontend programmer");
+  } else {
+    alert("You choose to be a backend programmer");
+  }
   alert("end");
-  });
+    });
   //alert(frontEndInput.checked);
   //alert(backEndInput.checked);
 });
