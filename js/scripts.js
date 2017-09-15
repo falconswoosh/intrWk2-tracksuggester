@@ -13,7 +13,7 @@ $(document).ready(function() {
   var frontEndInput4 = document.getElementById("gridRadios11");
   var backEndInput4 = document.getElementById("gridRadios10");
   var notSureInput4 = document.getElementById("gridRadios12");
-  //event.preventDefault();
+  event.preventDefault();
   if ((frontEndInput1).checked && (frontEndInput2).checked && (frontEndInput3).checked && (frontEndInput4).checked) {
     //alert("You choose to be a frontend programmer. We recommend either our CSS/Design or Java/Android track.");
     $('#frontEndResult').show();
@@ -26,11 +26,11 @@ $(document).ready(function() {
     $('noClearChoiceResult').hide();
   } else {
     //alert("We recommend you start with any one of the tracks since they all begin with Intro to Programming and Javascript. Prior to completing these two requirements, you may decide which specific track available is more your passion.")
-    $('noClearChoiceResult').show();
+    $('#noClearChoiceResult').show();
     $('#backEndResult').hide();
     $('#frontEndResult').hide();
   }
   //alert("end"); (commentByAF: Use this to test this code if it gets to the end.)
-  event.preventDefault();
+  //event.preventDefault();
     });
 });
