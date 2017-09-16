@@ -26,7 +26,7 @@ $(document).ready(function() {
     $('#frontEndResult').hide();
     $('#noClearChoiceResult').hide();
   } else {
-  alert("We recommend you start with any one of the tracks since they all begin with Intro to Programming and Javascript. Prior to completing these two requirements, you may decide which specific track available is more your passion.")
+  alert("We recommend you start with any one of the tracks since they all begin with Intro to Programming and Javascript. Prior to completing these two requirements, you may decide which specific track available is more your passion.");
     $('#noClearChoiceResult').show();
     $('#backEndResult').hide();
     $('#frontEndResult').hide();
