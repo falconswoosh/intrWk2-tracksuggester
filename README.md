@@ -6,7 +6,7 @@
 
 ## Description
 
-This website is our second project for the Introduction to Programming. To assist the potential student, it asks that the user respond a series of questions or preferences and based on the input, the site will respond with  suggested Epicodus tracks for consideration.
+This website is our second project for the Introduction to Programming. To assist the potential student, this site asks that the user to respond to a series of questions or preferences and based on their input, the site will respond with suggested Epicodus tracks for consideration.
 
 ## Setup/Installation Requirements
 
@@ -34,7 +34,7 @@ Alan Falcon email: [falconswoosh@gmail.com](falconswoosh@gmail.com)
 [HTML](http://htmlreference.io/), [CSS](http://ref.openweb.io/CSS/), [Markdown](https://en.wikipedia.org/wiki/Markdown), [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03), [GitHub](https://github.com/), [Atom](http://flight-manual.atom.io/getting-started/sections/why-atom/)
 
 ### License
-Epicodus copyright of copied image located in /img/logo.jpg
-All rights reserved for technologies utilized.
+* Epicodus copyright of copied image located in /img/logo.jpg
+* All rights reserved for technologies utilized.
 
 Copyright (c) 2016 **_{Epicodus}_**
