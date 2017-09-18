@@ -6,7 +6,7 @@
 
 ## Description
 
-This website is our second project for the Introduction to Programming. To assist the potential student, this site asks that the user to respond to a series of questions or preferences and based on their input, the site will respond with suggested Epicodus tracks for consideration.
+This website is our second project for the Introduction to Programming. To assist the potential student, this site asks that the user respond to a series of questions or preferences and based on their input, the site will respond with suggested Epicodus tracks for consideration.
 
 ## Setup/Installation Requirements
 
