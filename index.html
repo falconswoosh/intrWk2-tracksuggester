@@ -3,19 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Get an idea of which programming track you may be interested in or very passionate about">
-    <meta name="keywords" content="FrontEnd programmer, BackEnd programmer">
+    <meta name="keywords" content="Track Suggester, FrontEnd programmer, BackEnd programmer">
     <meta name="author" content="Alan Falcon">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+    <!--script src="https://code.jquery.com/jquery-3.2.1.min.js"></script-->
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>TrackSuggester</title>
   </head>
   <body>
+    <!--img src="img/logo.jpg" alt="Epicodus logo"-->
+    <a href="https://www.epicodus.com"><img src="img/logo.jpg" title="Epicodus Home" alt="Epicodus logo"></a>
     <div class="container">
       <div id="Questions">
-        <h1>Not Sure Which Programming Track To Enroll In?</h1>
-        <p id="h1-Instructions">Answer a few questions and see what our suggested programming track is based on your selections...</p>
+        <h1><a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn/">Not Sure Which Programming Track To Enroll In?</a></h1>
+        <p id="instructions"><em>Answer a few questions and see what our suggested programming track is based on your selections...</em></p>
         <form>
           <fieldset id="form-group1">
             <div class="row">
@@ -30,7 +34,7 @@
                 <div class="form-check">
                   <label class="form-check-label">
                     <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios2" value="option2">
-                    Softare, application, or website responsiveness and speed.
+                    Software, application, or website responsiveness and speed.
                   </label>
                 </div>
                 <div class="form-check">
@@ -78,7 +82,7 @@
             <div class="form-check">
               <label class="form-check-label">
                 <input class="form-check-input" type="radio" name="gridRadios3" id="gridRadios8" value="option8">
-                I prefer to learn HTML, CSS, etc.
+                I prefer to learn HTML, CSS/Design, etc.
               </label>
             </div>
             <div class="form-check">
@@ -99,7 +103,7 @@
             <div class="form-check">
               <label class="form-check-label">
                 <input class="form-check-input" type="radio" name="gridRadios4" id="gridRadios11" value="option11">
-                Android, Java
+                Android, Java, etc.
               </label>
             </div>
             <div class="form-check">
@@ -114,12 +118,12 @@
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div>
+          <div id="results">
+            <div id="frontEndResult" class="hidden"><h4><b>You seem inclined to be a frontend programmer. We recommend either our <a href="https://www.epicodus.com/css/">CSS</a>/<a href="https://www.epicodus.com/design/">Design</a> or <a href="https://www.epicodus.com/android/">Android</a>/<a href="https://www.epicodus.com/java/">Java</a> track.</b></h4></div>
+            <div id="backEndResult" class="hidden"><h4><b>You seem inclined to be a backend programmer. We recommend either <a href="https://www.epicodus.com/ruby/">Ruby</a>/<a href="https://www.epicodus.com/rails/">Rails</a>, <a href="https://www.epicodus.com/php/">PHP</a>/<a href="https://www.epicodus.com/drupal/">Drupal</a>, or <a href="https://www.epicodus.com/c-sharp/">C#</a>/<a href="https://www.epicodus.com/net/">.NET</a> tracks.</b></h4></div>
+            <div id="unClearResult" class="hidden"><h4><b>We recommend you start with any one of the tracks since they all begin with <a href="https://www.epicodus.com/intro-to-programming/">Intro to Programming and Javascript.</a> Once you are enrolled, prior to completing these two required courses, and with further collaboration with our staff regarding your soon-formed preferences, you may decide which specific track available is more your passion.</b></h4></div>
+          </div>
         </form>
-      </div>
-      <div id="results">
-        <div id="frontEndResult">You seem inclined to be a frontend programmer. We recommend either our CSS/Design or Java/Android track.</div>
-        <div id="backEndResult">You seem inclined to be a backend programmer. We recommend either Ruby/Rails, PHP/Drupal, or C$/.NET tracks</div>
-        <div id="noClearChoiceResult">We recommend you start with any one of the tracks since they all begin with Intro to Programming and Javascript. Prior to completing these two requirements, you may decide which specific track available is more your passion.</div>
       </div>
     </div>
   </body>
