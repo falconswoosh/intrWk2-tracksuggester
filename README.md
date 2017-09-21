@@ -23,7 +23,6 @@ This website is our second project for the Introduction to Programming. To assis
 ## Known Bugs
 
 * CSS Text-Decoration-Color not taking effect as expected.
-* Javascript/JQuery .show() and .hide() not triggering and therefore had to use an alternate method to trigger display of the recommended tracks based on how the questions are answered.
 
 ## Support and contact details
 
@@ -31,7 +30,7 @@ Alan Falcon email: [falconswoosh@gmail.com](falconswoosh@gmail.com)
 
 ## Technologies Used
 
-[HTML](http://htmlreference.io/), [CSS](http://ref.openweb.io/CSS/), [Markdown](https://en.wikipedia.org/wiki/Markdown), [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03), [GitHub](https://github.com/), [Atom](http://flight-manual.atom.io/getting-started/sections/why-atom/)
+[HTML](http://htmlreference.io/), [CSS](http://ref.openweb.io/CSS/), [Markdown](https://en.wikipedia.org/wiki/Markdown), [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03), [GitHub](https://github.com/), [Atom](http://flight-manual.atom.io/getting-started/sections/why-atom/), [Javascript](https://github.com/falconswoosh/intrWk2-tracksuggester)
 
 ### License
 * Epicodus copyright of copied image located in /img/logo.jpg
