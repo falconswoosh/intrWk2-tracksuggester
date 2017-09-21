@@ -1,7 +1,18 @@
 $(document).ready(function() {
   $("#form").submit(function(event) {
   //(commentByAF: Use below alert to test this code starts as expected.)
-  alert("start");
+  // var frontEndInput1 = $("input:radio[id=gridRadios1]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var frontEndInput2 = $("input:radio[id=gridRadios4]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var frontEndInput3 = $("input:radio[id=gridRadios8]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var frontEndInput4 = $("input:radio[id=gridRadios11]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var backEndInput1 = $("input:radio[id=gridRadios2]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var backEndInput2 = $("input:radio[id=gridRadios5]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var backEndInput3 = $("input:radio[id=gridRadios7]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var backEndInput4 = $("input:radio[id=gridRadios10]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var notSureInput1 = $("input:radio[id=gridRadios3]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var notSureInput2 = $("input:radio[id=gridRadios6]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var notSureInput3 = $("input:radio[id=gridRadios9]:checked").val(); //Suggested by Lina. Unable to get to work.
+  // var notSureInput4 = $("input:radio[id=gridRadios12]:checked").val(); //Suggested by Lina. Unable to get to work.
   var frontEndInput1 = document.getElementById("gridRadios1");
   var backEndInput1 = document.getElementById("gridRadios2");
   var notSureInput1 = document.getElementById("gridRadios3");
